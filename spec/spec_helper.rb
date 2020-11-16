@@ -11,7 +11,7 @@ require 'simplecov'
 require 'simplecov-console'
 
 # tell Capybara about our app class
-Capybara.app = Bookmarks
+Capybara.app = BookmarkManager
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
