@@ -1,5 +1,5 @@
 ENV['ENVIRONMENT'] = 'test'
-ENV['RACK_ENV'] = 'test'
+
 
 # require our Sinatra app file
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
@@ -13,6 +13,7 @@ require 'simplecov-console'
 
 # tell Capybara about our app class
 Capybara.app = BookmarkManager
+
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
