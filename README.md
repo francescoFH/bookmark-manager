@@ -13,6 +13,11 @@ As a user
 So I can access to a new favourite web-site quickly
 I want to add a bookmark to Bookmark Manager
 ```
+```
+As a user
+So that I can have only bookmarks I am interested in
+I want to delete a bookmark
+```
 
 
 ##Domain Model

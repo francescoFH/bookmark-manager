@@ -7,7 +7,6 @@ require 'setup_test_database'
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
-# require 'features/web_helpers'
 require 'simplecov'
 require 'simplecov-console'
 
